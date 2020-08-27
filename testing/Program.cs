@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.InteropServices.WindowsRuntime;
 
 public static class ResistorColor
 {
@@ -8,11 +7,9 @@ public static class ResistorColor
         string[] colors = Colors();
         int index = 0;
         int CodeValueToReturn = 100;
-        color = color.ToUpper();
         foreach (string colorCodeText in colors)
         {
-            string colorCodeTextUpper = colorCodeText.ToUpper();
-            if (colorCodeTextUpper == color) CodeValueToReturn = index;
+            if (colorCodeText == color) CodeValueToReturn = index;
             index++;
         }
         return CodeValueToReturn;
@@ -20,7 +17,12 @@ public static class ResistorColor
 
     public static string[] Colors()
     {
-        string[] mystring = { "black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white" };
+        string[] mystring = { "Black", "Brown", "Red", "Orange", "Yellow", "Green", "Blue", "Violet", "Grey", "White" };
         return mystring;
+    }
+    static void Main(string[] args)
+    {
+        int Code = ColorCode("black");
+        Console.WriteLine(Code);
     }
 }
