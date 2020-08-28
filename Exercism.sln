@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leap", "leap\Leap.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gigasecond", "gigasecond\Gigasecond.csproj", "{9D800ED0-248C-46BF-80D4-165CDDD0305D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceAge", "space-age\SpaceAge.csproj", "{C8813A12-DA5D-462E-886F-2EEF5E54CF64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9D800ED0-248C-46BF-80D4-165CDDD0305D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D800ED0-248C-46BF-80D4-165CDDD0305D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D800ED0-248C-46BF-80D4-165CDDD0305D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8813A12-DA5D-462E-886F-2EEF5E54CF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8813A12-DA5D-462E-886F-2EEF5E54CF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8813A12-DA5D-462E-886F-2EEF5E54CF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8813A12-DA5D-462E-886F-2EEF5E54CF64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
