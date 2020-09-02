@@ -1,5 +1,6 @@
 using System;
 using System.Runtime.Serialization;
+//@Edgar Runnman
 
 public static class Gigasecond
 {
