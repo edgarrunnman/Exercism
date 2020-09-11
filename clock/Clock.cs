@@ -4,24 +4,28 @@ public class Clock
 {
     private string inputTimeString;
 
-    private string hoursString;
-    private string minutesString;
-    private DateTime inputTimeDateTime;
+    private string _hoursString;
+    private string _minutesString;
+
+    private int _hoursInteger;
+    private int _minutesInteger;
+
+
     public Clock(int hours, int minutes)
     {
         inputTimeString = InputTimeToString(hours, minutes);
+        _hoursInteger = hours;
+        _minutesInteger = minutes;
     }
 
     public Clock Add(int minutesToAdd)
     {
-        DateTime time = inputTimeDateTime.Add(TimeSpan.FromMinutes(minutesToAdd));            
-        return new Clock(time.Hour, time.Minute);
-        return new Clock(10, 10);
+        return new Clock(_hoursInteger, _minutesInteger + minutesToAdd);
     }
 
     public Clock Subtract(int minutesToSubtract)
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return new Clock(_hoursInteger, _minutesInteger - minutesToSubtract);
     }
     public override string ToString()
     {
@@ -39,32 +43,12 @@ public class Clock
             minutes = 60 + minutes;
             hours--;
         }
-        if (hours < 10) hoursString = $"0{hours}";
-        else hoursString = Convert.ToString(hours);
+        if (hours < 10) _hoursString = $"0{hours}";
+        else _hoursString = Convert.ToString(hours);
 
-        if (minutes < 10) minutesString = $"0{minutes}";
-        else minutesString = Convert.ToString(minutes);
-        inputTimeDateTime = DateTime.Parse($"{hoursString}:{minutesString}");
-        return DateTime.Parse($"{hoursString}:{minutesString}").ToString("HH:mm");
+        if (minutes < 10) _minutesString = $"0{minutes}";
+        else _minutesString = Convert.ToString(minutes);
+        return $"{_hoursString}:{_minutesString}";
     }
-    private DateTime InputTimeToDateTIme(int hours, int minutes)
-    {
-        hours += (minutes / 60);
-        hours = hours % 24;
-        if (hours < 0) hours = 24 + hours;
-
-        minutes = minutes % 60;
-        if (minutes < 0)
-        {
-            minutes = 60 + minutes;
-            hours--;
-        }
-        if (hours < 10) hoursString = $"0{hours}";
-        else hoursString = Convert.ToString(hours);
-
-        if (minutes < 10) minutesString = $"0{minutes}";
-        else minutesString = Convert.ToString(minutes);
-
-        return DateTime.Parse($"{hoursString}:{minutesString}");
-    }
+    
 }
