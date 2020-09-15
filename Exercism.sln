@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfMultiples", "sum-of-mu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Series", "series\Series.csproj", "{A26CB951-6324-4A1A-B6E0-7A8D1974041D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accumulate", "accumulate\Accumulate.csproj", "{8EB0DB3B-4F23-4342-AE22-CD1E3907C57D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{A26CB951-6324-4A1A-B6E0-7A8D1974041D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A26CB951-6324-4A1A-B6E0-7A8D1974041D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A26CB951-6324-4A1A-B6E0-7A8D1974041D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB0DB3B-4F23-4342-AE22-CD1E3907C57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB0DB3B-4F23-4342-AE22-CD1E3907C57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB0DB3B-4F23-4342-AE22-CD1E3907C57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB0DB3B-4F23-4342-AE22-CD1E3907C57D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
