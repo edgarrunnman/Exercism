@@ -59,6 +59,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grains", "grains\Grains.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pangram", "pangram\Pangram.csproj", "{4512124D-31B8-4D1B-BD38-9788AD92DBF5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etl", "etl\Etl.csproj", "{BF5D4A1B-AC11-4FA1-A0E5-3AB6569107DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{4512124D-31B8-4D1B-BD38-9788AD92DBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4512124D-31B8-4D1B-BD38-9788AD92DBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4512124D-31B8-4D1B-BD38-9788AD92DBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5D4A1B-AC11-4FA1-A0E5-3AB6569107DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5D4A1B-AC11-4FA1-A0E5-3AB6569107DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5D4A1B-AC11-4FA1-A0E5-3AB6569107DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5D4A1B-AC11-4FA1-A0E5-3AB6569107DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
