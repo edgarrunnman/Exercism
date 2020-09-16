@@ -55,6 +55,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RnaTranscription", "rna-tra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DifferenceOfSquares", "difference-of-squares\DifferenceOfSquares.csproj", "{4C28B561-C461-48CD-A391-66FA04040F2C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grains", "grains\Grains.csproj", "{825720FB-B62A-4C49-A786-D9220B522167}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{4C28B561-C461-48CD-A391-66FA04040F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C28B561-C461-48CD-A391-66FA04040F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C28B561-C461-48CD-A391-66FA04040F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{825720FB-B62A-4C49-A786-D9220B522167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{825720FB-B62A-4C49-A786-D9220B522167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{825720FB-B62A-4C49-A786-D9220B522167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{825720FB-B62A-4C49-A786-D9220B522167}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
