@@ -63,6 +63,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etl", "etl\Etl.csproj", "{B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Raindrops", "raindrops\Raindrops.csproj", "{3BB063AF-4833-4907-85C9-D022AF905966}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "binary-search\BinarySearch.csproj", "{D143091D-CE87-4130-9AB5-1D7C5461C02B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneNumber", "phone-number\PhoneNumber.csproj", "{E7CF36BE-1C15-4A48-96A1-430AA5B1FDFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +193,14 @@ Global
 		{3BB063AF-4833-4907-85C9-D022AF905966}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB063AF-4833-4907-85C9-D022AF905966}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB063AF-4833-4907-85C9-D022AF905966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D143091D-CE87-4130-9AB5-1D7C5461C02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D143091D-CE87-4130-9AB5-1D7C5461C02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D143091D-CE87-4130-9AB5-1D7C5461C02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D143091D-CE87-4130-9AB5-1D7C5461C02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CF36BE-1C15-4A48-96A1-430AA5B1FDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CF36BE-1C15-4A48-96A1-430AA5B1FDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CF36BE-1C15-4A48-96A1-430AA5B1FDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CF36BE-1C15-4A48-96A1-430AA5B1FDFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
