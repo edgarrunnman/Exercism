@@ -6,5 +6,4 @@ public static class MatchingBrackets
     {
         throw new NotImplementedException();
     }
-    private 
 }
