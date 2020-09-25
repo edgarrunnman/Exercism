@@ -24,19 +24,15 @@ public static class QueenAttack
         for (int i = 0; i < 8; i++)
         {
             moves[0].row += 1;
-            moves[0].column += 0;
             moves[1].row += 1;
             moves[1].column += 1;
-            moves[2].row += 0;
             moves[2].column += 1;
             moves[3].row += 1;
             moves[3].column -= 1;
-            moves[4].row += 0;
             moves[4].column -= 1;
             moves[5].row -= 1;
             moves[5].column -= 1;
             moves[6].row -= 1;
-            moves[6].column += 0;
             moves[7].row -= 1;
             moves[7].column += 1;
 
