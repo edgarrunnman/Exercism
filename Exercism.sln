@@ -105,6 +105,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tournament", "tournament\To
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariableLengthQuantity", "variable-length-quantity\VariableLengthQuantity.csproj", "{1A44A201-D549-4891-9282-EFD3398AE853}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RationalNumbers", "rational-numbers\RationalNumbers.csproj", "{0B1DE5F4-CBE5-4A25-92BD-371BB662F11D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +317,10 @@ Global
 		{1A44A201-D549-4891-9282-EFD3398AE853}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A44A201-D549-4891-9282-EFD3398AE853}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A44A201-D549-4891-9282-EFD3398AE853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1DE5F4-CBE5-4A25-92BD-371BB662F11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1DE5F4-CBE5-4A25-92BD-371BB662F11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1DE5F4-CBE5-4A25-92BD-371BB662F11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1DE5F4-CBE5-4A25-92BD-371BB662F11D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

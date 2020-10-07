@@ -5,7 +5,7 @@ using Xunit.Sdk;
 
 public class CircularBuffer<T>
 {
-    int[] buffer;
+    T[] buffer;
     int writePositionIndex = 0;
     int readPositionIndex = 0;
     int overwritePositionIndex = 0;
@@ -14,9 +14,9 @@ public class CircularBuffer<T>
 
     public CircularBuffer(int capacity) 
     {
-        buffer = new int[capacity];
+        buffer = new T[capacity];
     }
-    public int Read()
+    public T Read()
     {
         int index = readPositionIndex % buffer.Length;
         if (index >= buffer.Length) throw new InvalidOperationException();
@@ -28,7 +28,7 @@ public class CircularBuffer<T>
         return value;
     }
 
-    public void Write(int value)
+    public void Write(T value)
     {
         if (writePositionIndex - readPositionIndex >= buffer.Length) throw new InvalidOperationException();
         int index = writePositionIndex % buffer.Length;
@@ -38,7 +38,7 @@ public class CircularBuffer<T>
         stage++;
     }
 
-    public void Overwrite(int value)
+    public void Overwrite(T value)
     {
         int index = overwritePositionIndex % buffer.Length;
         buffer[index] = value;
