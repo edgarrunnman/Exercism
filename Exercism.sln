@@ -107,6 +107,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariableLengthQuantity", "v
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RationalNumbers", "rational-numbers\RationalNumbers.csproj", "{0B1DE5F4-CBE5-4A25-92BD-371BB662F11D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaddlePoints", "saddle-points\SaddlePoints.csproj", "{6FE630FB-FDB9-4814-B568-E819E8FF9591}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -321,6 +323,10 @@ Global
 		{0B1DE5F4-CBE5-4A25-92BD-371BB662F11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B1DE5F4-CBE5-4A25-92BD-371BB662F11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B1DE5F4-CBE5-4A25-92BD-371BB662F11D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE630FB-FDB9-4814-B568-E819E8FF9591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE630FB-FDB9-4814-B568-E819E8FF9591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE630FB-FDB9-4814-B568-E819E8FF9591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE630FB-FDB9-4814-B568-E819E8FF9591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
