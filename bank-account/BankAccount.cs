@@ -5,6 +5,7 @@ public class BankAccount
 {
     private bool _aktivStatus { get; set; } = false;
     private decimal _balance = 0;
+    private object _lock = new object();
     public void Open()
     {
         this._aktivStatus = true;
@@ -27,6 +28,9 @@ public class BankAccount
 
     public void UpdateBalance(decimal change)
     {
-        _balance = _balance + change;
+        lock (_lock)
+        {
+             _balance += change;
+        }
     }
 }
